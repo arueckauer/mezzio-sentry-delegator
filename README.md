@@ -2,7 +2,7 @@
 
 Mezzio Delegator and ErrorListener for Sentry
 
-This component integrates capturing of Throwables in Sentry by providing a `Listener` for the [Stratigility `ErrorHandler` middleware](https://docs.laminas.dev/laminas-stratigility/v3/error-handlers/#handling-php-errors-and-exceptions). Two steps are required for the setup.
+This package provides an initialization wrapper for Sentry and the ability to capture Throwables in Sentry through an `ErrorListener` for the [Stratigility `ErrorHandler` middleware](https://docs.laminas.dev/laminas-stratigility/v3/error-handlers/#handling-php-errors-and-exceptions).
 
 ## Installation
 
