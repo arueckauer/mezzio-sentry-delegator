@@ -24,7 +24,8 @@
     },
     "require-dev": {
         "laminas/laminas-coding-standard": "^2.3",
-        "roave/security-advisories": "dev-latest"
+        "roave/security-advisories": "dev-latest",
+        "vimeo/psalm": "^4.10"
     },
     "config": {
         "sort-packages": true
