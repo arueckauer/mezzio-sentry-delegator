@@ -1,0 +1,38 @@
+{
+    "name": "arueckauer/mezzio-sentry-delegator",
+    "type": "library",
+    "description": "Mezzio Delegator and ErrorListener for Sentry ",
+    "keywords": [
+        "mezzio",
+        "sentry"
+    ],
+    "homepage": "https://github.com/arueckauer/mezzio-sentry-delegator",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Andi Rückauer",
+            "email": "arueckauer@gmail.com",
+            "homepage": "https://arueckauer.github.io/",
+            "role": "Project Lead"
+        }
+    ],
+    "require": {
+        "php": "^7.4 || ~8.0.0"
+    },
+    "require-dev": {},
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "MezzioSentryDelegator\\": "src/MezzioSentryDelegator/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MezzioSentryDelegatorTest\\": "test/MezzioSentryDelegator"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
