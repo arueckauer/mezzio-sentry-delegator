@@ -11,3 +11,23 @@ Via Composer
 ```shell
 composer require arueckauer/mezzio-sentry-delegator
 ```
+
+## Configuration
+
+Provide a dsn for Sentry and possible other [configuration options](https://docs.sentry.io/platforms/php/configuration/) in the project's configuration, e.g. `config/autoload/services.local.php`. Go to the [PHP configure documentation](https://docs.sentry.io/platforms/php/#configure) to select the dsn for a project.
+
+```php
+<?php
+
+declare(strict_types = 1);
+
+use Sentry\Options as SentryOptions;
+
+return [
+    // [..]
+    SentryOptions::class => [
+        'dsn' => 'https://<key>@<account-id>.ingest.sentry.io/<project-id>',
+    ],
+];
+
+```
