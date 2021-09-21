@@ -32,6 +32,14 @@ return [
 
 ```
 
+## Initialize Sentry
+
+To initialize Sentry, add the following line to the anonymous function in `public/index.php`.
+
+```php
+(new MezzioSentryDelegator\SentryInitializer())($container);
+```
+
 ## Attach Listener by wiring delegator
 
 Declare the delegator dependency in the project's configuration, e.g. `config/autoload/dependencies.global.php`.
