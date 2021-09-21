@@ -14,4 +14,8 @@
     <file>test</file>
 
     <rule ref="LaminasCodingStandard"/>
+
+    <rule ref="PSR1.Methods.CamelCapsMethodName">
+        <exclude-pattern>test/*Test.php</exclude-pattern>
+    </rule>
 </ruleset>
