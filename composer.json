@@ -19,7 +19,10 @@
     "require": {
         "php": "^7.4 || ~8.0.0"
     },
-    "require-dev": {},
+    "require-dev": {
+        "laminas/laminas-coding-standard": "^2.3",
+        "roave/security-advisories": "dev-latest"
+    },
     "config": {
         "sort-packages": true
     },
