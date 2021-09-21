@@ -31,6 +31,13 @@
     "config": {
         "sort-packages": true
     },
+    "extra": {
+        "laminas": {
+            "config-provider": [
+                "MezzioSentryDelegator\\ConfigProvider"
+            ]
+        }
+    },
     "autoload": {
         "psr-4": {
             "MezzioSentryDelegator\\": "src/MezzioSentryDelegator/"
