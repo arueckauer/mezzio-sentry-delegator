@@ -31,3 +31,33 @@ return [
 ];
 
 ```
+
+## Attach Listener by wiring delegator
+
+Declare the delegator dependency in the project's configuration, e.g. `config/autoload/dependencies.global.php`.
+
+```php
+<?php
+
+declare(strict_types = 1);
+
+use MezzioSentryDelegator\Delegator;
+use Laminas\Stratigility\Middleware\ErrorHandler;
+
+class ConfigProvider
+{
+    public function __invoke() : array
+    {
+        return [
+            'dependencies' => [
+                'delegators' => [
+                    ErrorHandler::class => [
+                        Delegator::class,
+                    ],
+                ],
+            ],
+        ];
+    }
+}
+
+```
