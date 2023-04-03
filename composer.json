@@ -26,7 +26,7 @@
         "laminas/laminas-coding-standard": "^2.3",
         "phpunit/phpunit": "^9.5",
         "roave/security-advisories": "dev-latest",
-        "vimeo/psalm": "^4.10"
+        "vimeo/psalm": "^5.0"
     },
     "config": {
         "allow-plugins": {
