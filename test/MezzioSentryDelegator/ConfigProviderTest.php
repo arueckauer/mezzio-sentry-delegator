@@ -6,13 +6,12 @@ namespace MezzioSentryDelegatorTest;
 
 use MezzioSentryDelegator\ConfigProvider;
 use MezzioSentryDelegator\ErrorListener;
+use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
 
+#[CoversClass(ConfigProvider::class)]
 class ConfigProviderTest extends TestCase
 {
-    /**
-     * @covers \MezzioSentryDelegator\ConfigProvider::__invoke
-     */
     public function test___invoke(): void
     {
         $config = (new ConfigProvider())();
