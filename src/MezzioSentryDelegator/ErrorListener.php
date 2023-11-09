@@ -12,8 +12,11 @@ use function Sentry\captureException;
 
 class ErrorListener
 {
-    public function __invoke(Throwable $exception, ServerRequestInterface $request, ResponseInterface $response): void
-    {
+    public function __invoke(
+        Throwable $exception,
+        ServerRequestInterface $request,
+        ResponseInterface $response
+    ): void {
         captureException($exception);
     }
 }
