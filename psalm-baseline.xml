@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="4.10.0@916b098b008f6de4543892b1e0651c1c3b92cbfa">
+<files psalm-version="5.15.0@5c774aca4746caf3d239d9c8cadb9f882ca29352">
+  <file src="src/MezzioSentryDelegator/Delegator.php">
+    <UnusedClass>
+      <code>Delegator</code>
+    </UnusedClass>
+  </file>
+  <file src="src/MezzioSentryDelegator/ErrorListener.php">
+    <PossiblyUnusedParam>
+      <code>$request</code>
+      <code>$response</code>
+    </PossiblyUnusedParam>
+  </file>
+  <file src="src/MezzioSentryDelegator/SentryInitializer.php">
+    <UnusedClass>
+      <code>SentryInitializer</code>
+    </UnusedClass>
+  </file>
   <file src="test/MezzioSentryDelegator/ConfigProviderTest.php">
-    <PropertyNotSetInConstructor occurrences="2">
+    <UnusedClass>
       <code>ConfigProviderTest</code>
-    </PropertyNotSetInConstructor>
+    </UnusedClass>
   </file>
 </files>
