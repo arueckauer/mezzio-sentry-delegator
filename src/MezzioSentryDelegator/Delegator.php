@@ -6,13 +6,17 @@ namespace MezzioSentryDelegator;
 
 use Laminas\ServiceManager\Factory\DelegatorFactoryInterface;
 use Laminas\Stratigility\Middleware\ErrorHandler;
+use Psr\Container\ContainerExceptionInterface;
 use Psr\Container\ContainerInterface;
+use Psr\Container\NotFoundExceptionInterface;
 
 use function assert;
 
 class Delegator implements DelegatorFactoryInterface
 {
     /**
+     * @throws ContainerExceptionInterface
+     * @throws NotFoundExceptionInterface
      * @param string $name
      */
     public function __invoke(
