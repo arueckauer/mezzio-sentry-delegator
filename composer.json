@@ -21,15 +21,15 @@
         "ext-curl": "*",
         "laminas/laminas-servicemanager": "^3.22 || ^4.2",
         "laminas/laminas-stratigility": "^3.12 || ^4.0",
-        "sentry/sdk": "^4.0"
+        "sentry/sentry": "^4.0"
     },
     "require-dev": {
-        "ergebnis/composer-normalize": "^2.43",
-        "laminas/laminas-coding-standard": "^2.5",
-        "phpunit/phpunit": "^10.5",
-        "rector/rector": "^1.2.3",
+        "ergebnis/composer-normalize": "~2.44.0",
+        "laminas/laminas-coding-standard": "^3.0.0",
+        "phpunit/phpunit": "^10.5.36",
+        "rector/rector": "~1.2.7",
         "roave/security-advisories": "dev-latest",
-        "vimeo/psalm": "^5.25"
+        "vimeo/psalm": "~5.26.1"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
