@@ -27,7 +27,7 @@
         "ergebnis/composer-normalize": "~2.44.0",
         "laminas/laminas-coding-standard": "~3.0.1",
         "phpunit/phpunit": "~10.5.44",
-        "rector/rector": "~1.2.10",
+        "rector/rector": "~2.0.7",
         "roave/security-advisories": "dev-latest",
         "vimeo/psalm": "~6.3.0"
     },
