@@ -26,10 +26,10 @@
     "require-dev": {
         "ergebnis/composer-normalize": "~2.45.0",
         "laminas/laminas-coding-standard": "~3.0.1",
-        "phpunit/phpunit": "~10.5.44",
-        "rector/rector": "~2.0.7",
+        "phpunit/phpunit": "~10.5.45",
+        "rector/rector": "~2.0.9",
         "roave/security-advisories": "dev-latest",
-        "vimeo/psalm": "~6.4.0"
+        "vimeo/psalm": "~6.4.1"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
