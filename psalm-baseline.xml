@@ -1,24 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="5.15.0@5c774aca4746caf3d239d9c8cadb9f882ca29352">
+<files psalm-version="6.7.1@a2f190972555ea01b0cfcc1913924d6c5fc1a64e">
   <file src="src/MezzioSentryDelegator/Delegator.php">
+    <MissingOverrideAttribute>
+      <code><![CDATA[public function __invoke(]]></code>
+    </MissingOverrideAttribute>
     <UnusedClass>
-      <code>Delegator</code>
+      <code><![CDATA[Delegator]]></code>
     </UnusedClass>
   </file>
   <file src="src/MezzioSentryDelegator/ErrorListener.php">
-    <PossiblyUnusedParam>
-      <code>$request</code>
-      <code>$response</code>
-    </PossiblyUnusedParam>
+    <UnusedParam>
+      <code><![CDATA[$request]]></code>
+      <code><![CDATA[$response]]></code>
+    </UnusedParam>
   </file>
   <file src="src/MezzioSentryDelegator/SentryInitializer.php">
     <UnusedClass>
-      <code>SentryInitializer</code>
+      <code><![CDATA[SentryInitializer]]></code>
     </UnusedClass>
   </file>
   <file src="test/MezzioSentryDelegator/ConfigProviderTest.php">
     <UnusedClass>
-      <code>ConfigProviderTest</code>
+      <code><![CDATA[ConfigProviderTest]]></code>
     </UnusedClass>
   </file>
 </files>
