@@ -10,7 +10,7 @@ use Throwable;
 
 use function Sentry\captureException;
 
-class ErrorListener
+final class ErrorListener
 {
     public function __invoke(
         Throwable $exception,
