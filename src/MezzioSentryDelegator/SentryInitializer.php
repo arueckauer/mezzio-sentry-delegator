@@ -11,7 +11,7 @@ use Sentry\Options as SentryOptions;
 
 use function Sentry\init;
 
-class SentryInitializer
+final class SentryInitializer
 {
     /**
      * @throws ContainerExceptionInterface

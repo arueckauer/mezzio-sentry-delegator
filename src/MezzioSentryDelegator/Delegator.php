@@ -12,7 +12,7 @@ use Psr\Container\NotFoundExceptionInterface;
 
 use function assert;
 
-class Delegator implements DelegatorFactoryInterface
+final class Delegator implements DelegatorFactoryInterface
 {
     /**
      * @throws ContainerExceptionInterface
