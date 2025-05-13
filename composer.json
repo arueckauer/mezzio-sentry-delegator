@@ -25,7 +25,7 @@
     },
     "require-dev": {
         "ergebnis/composer-normalize": "~2.45.0",
-        "laminas/laminas-coding-standard": "~3.0.1",
+        "laminas/laminas-coding-standard": "~3.1.0",
         "phpunit/phpunit": "~10.5.45",
         "rector/rector": "~2.0.9",
         "roave/security-advisories": "dev-latest",
