@@ -29,7 +29,7 @@
         "phpunit/phpunit": "~10.5.45",
         "rector/rector": "~2.3.0",
         "roave/security-advisories": "dev-latest",
-        "vimeo/psalm": "~6.13.0"
+        "vimeo/psalm": "~6.14.0"
     },
     "minimum-stability": "stable",
     "prefer-stable": true,
