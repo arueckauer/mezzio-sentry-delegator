@@ -24,7 +24,7 @@
         "sentry/sentry": "^4.0"
     },
     "require-dev": {
-        "ergebnis/composer-normalize": "~2.48.0",
+        "ergebnis/composer-normalize": "~2.49.0",
         "laminas/laminas-coding-standard": "~3.1.0",
         "phpunit/phpunit": "~10.5.45",
         "rector/rector": "~2.3.0",
