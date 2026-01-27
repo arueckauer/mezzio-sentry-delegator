@@ -26,7 +26,7 @@
     "require-dev": {
         "ergebnis/composer-normalize": "~2.49.0",
         "laminas/laminas-coding-standard": "~3.1.0",
-        "phpunit/phpunit": "~10.5.45",
+        "phpunit/phpunit": "~12.5.0",
         "rector/rector": "~2.3.0",
         "roave/security-advisories": "dev-latest",
         "vimeo/psalm": "~6.14.0"
