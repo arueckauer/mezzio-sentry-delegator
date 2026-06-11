@@ -49,8 +49,10 @@
             "ergebnis/composer-normalize": true,
             "php-http/discovery": true
         },
-        "audit": {
-            "abandoned": "report"
+        "policy": {
+            "abandoned": {
+                "audit": "report"
+            }
         },
         "sort-packages": true
     },
